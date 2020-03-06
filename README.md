@@ -5,10 +5,12 @@ $ source env/bin/activate
 
 pip install -r requirements.txt
 
-#install broker: (mosquito)
-#run broker    : (mosquitto -v)
+#install broker:(mosquito)
+
+#run broker    :(mosquitto -v)
 
 run app Flask
+
 $ python monitor.py
 
 run client_pub Mqtt
